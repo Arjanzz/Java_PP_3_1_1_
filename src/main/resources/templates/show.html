@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show user</title>
+</head>
+<body>
+<p>Страница пользователя</p>
+<p>Имя: <span th:text="${user.getName()}"></span></p>
+<p>Фамилия: <span th:text="${user.getName()}"></span></p>
+<a th:href="@{/users/}">Назад к списку</a>
+</body>
+</html>
